@@ -24,9 +24,9 @@ After more data preprocessing, it was found that a phoneme audio clip always con
 With that in mind, the MFCC from each phoneme audio clip is extracted using the ```librosa.feature.mfcc``` function in Librosa. A heatmap of the MFCCs of each phoneme audio clip is plotted using Matplotlib.</p>
 
 ![Heatmap of an 'l' phoneme from a healthy elderly](/Screenshot%202024-10-27%20231107.png)
-<p style="text-align:center;">The heatmap of an 'l' phoneme from a healthy elderly</p>
+<span class="caption" style="text-align:center;">The heatmap of an 'l' phoneme from a healthy elderly</span>
 
 <p>The bar charts and trendlines of the mean of each of the 13 MFCCs across all healthy elderly clips and the mean of each of the 13 MFCCs across all clips from elderly with dementia on the same plot. The full code for two such comparisons are in the IPython notebooks attached. All the analysis is again in the attached IPython notebooks.</p>
 
 ![Bar charts and trendlines of mean of first 6 MFCCs of 'l' phoneme collected from healthy elderlies (blue) and elderlies with dementia (red)](/Screenshot%202024-10-27%20231128.png)
-<p style="text-align:center;">Bar charts and trendlines of mean of first 6 MFCCs of 'l' phoneme collected from healthy elderlies (blue) and elderlies with dementia (red)</p>
+<span class="caption" style="text-align:center;">Bar charts and trendlines of mean of first 6 MFCCs of 'l' phoneme collected from healthy elderlies (blue) and elderlies with dementia (red)</span>
